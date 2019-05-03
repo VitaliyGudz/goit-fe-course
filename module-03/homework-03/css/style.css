@@ -1,0 +1,109 @@
+/* font-family: 'Playfair Display', serif; */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Навигация */
+nav {
+  text-align: center;
+  width: 901px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  display: inline-block;
+  margin-right: 100px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+a {
+  text-decoration: none; /*Убираем подчеркивание*/
+  color: #818181; /*Цвет ссылки*/
+}
+
+a:hover {
+  color: #03a9f4; /* Цвет ссылки при наведении*/
+}
+
+/*Наполнение*/
+main {
+  width: 901px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+article {
+  width: 420px;
+  display: inline-block;
+  margin-right: 57px;
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+.art {
+    margin-right: 0px;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+.ssd {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 30px;
+}
+
+p, h2 {
+    color: #626262;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.but {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+
+}
+
+button a {
+    font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  
+}
+
+button {
+  width: 164px;
+  height: 60px;
+  border: 1px solid;
+  border-color: #626262;
+  background-color: white;
+  margin-top: 22px;
+  margin-bottom: 70px;
+
+}

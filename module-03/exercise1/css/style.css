@@ -1,0 +1,21 @@
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+}
+
+li {
+    display: inline-block; 
+    margin-right: 50px;
+}
+
+a:hover {
+    background:red; /* Цвет фона под ссылкой */ 
+   } 

@@ -1,0 +1,55 @@
+/* html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
+/* так нужно, пока не понятно */
+
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 470px;
+    /* background-color: blue;  */
+    margin: 0 auto;
+}
+
+.photo {
+    display:block; 
+    margin:0 auto;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+p, h2 {
+    margin-left: 20px;
+    font-family: 'Playfair Display', serif;
+    width: 425px;
+    color: rgb(97, 96, 96);
+    text-align: justify;
+}
+
+.uppercase {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(179, 176, 176);
+
+}
+
+h2 {
+    padding-bottom: 25px;
+    font-size: 30px;   
+}
